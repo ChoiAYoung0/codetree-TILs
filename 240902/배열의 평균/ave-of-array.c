@@ -20,7 +20,7 @@ int main() {
         {
             sum += arr[i][j];
         }
-        avg = sum / 4;
+        avg = sum / 4.0;
         printf("%.1f ",avg);
     }
 
@@ -35,7 +35,7 @@ int main() {
         {
             sum += arr[j][i];
         }
-        avg = sum / 2;
+        avg = sum / 2.0;
         printf("%.1f ",avg);
     }
 
@@ -50,7 +50,7 @@ int main() {
             sum += arr[i][j];
         }
     }
-    avg = sum / 8;
+    avg = sum / 8.0;
     printf("%.1f ",avg);
 
 
