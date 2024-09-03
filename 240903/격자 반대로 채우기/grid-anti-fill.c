@@ -7,22 +7,47 @@ int main() {
 
     scanf("%d",&n);
 
-    for(int j = n-1; j>=0 ; j--)
+    if(n%2==0)
     {
-        if(j%2==1)
+        for(int j = n-1; j>=0 ; j--)
         {
-            for(int i=n-1 ; i>=0 ; i--)
+            if(j%2==1)
             {
-                arr[i][j] = num;
-                num++;
+                for(int i=n-1 ; i>=0 ; i--)
+                {
+                    arr[i][j] = num;
+                    num++;
+                }
+            }
+            else
+            {
+                for(int i=0 ; i<n ; i++)
+                {
+                    arr[i][j] = num;
+                    num++;
+                }
             }
         }
-        else
+    }
+    else
+    {
+        for(int j = n-1; j>=0 ; j--)
         {
-            for(int i=0 ; i<n ; i++)
+            if(j%2==0)
             {
-                arr[i][j] = num;
-                num++;
+                for(int i=n-1 ; i>=0 ; i--)
+                {
+                    arr[i][j] = num;
+                    num++;
+                }
+            }
+            else
+            {
+                for(int i=0 ; i<n ; i++)
+                {
+                    arr[i][j] = num;
+                    num++;
+                }
             }
         }
     }
