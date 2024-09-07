@@ -5,6 +5,6 @@ int main() {
     scanf("%d",&n);
     printf("%d",n);
     if(n<0)
-        printf("\minus");
+        printf("\nminus");
     return 0;
 }
