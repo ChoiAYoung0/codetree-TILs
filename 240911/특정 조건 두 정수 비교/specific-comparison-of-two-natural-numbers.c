@@ -13,11 +13,11 @@ int main() {
     }
     if(a==b)
     {
-        printf("1");
+        printf("\n1");
     }
     else
     {
-        printf("0");
+        printf("\n0");
     }
     return 0;
 }
