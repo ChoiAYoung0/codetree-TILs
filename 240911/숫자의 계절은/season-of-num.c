@@ -11,7 +11,7 @@ int main() {
     {
         printf("Summer");
     }
-    else if(m>4&&m<6)
+    else if(m>2&&m<6)
     {
         printf("Spring");
     }
