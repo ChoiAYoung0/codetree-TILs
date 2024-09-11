@@ -13,11 +13,11 @@ int main() {
     }
     if(b%2==0)
     {
-        printf("even");
+        printf("\neven");
     }
     else
     {
-        printf("odd");
+        printf("\nodd");
     }
     return 0;
 }
