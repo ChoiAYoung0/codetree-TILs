@@ -7,15 +7,15 @@ int main() {
 
     scanf("%c %d",&a,&atem);
     if(a = 'Y' && atem >=37)
-        A++;
+        A += 1;
     
     scanf("%c %d",&b,&btem);
     if(b = 'Y' && btem >=37)
-        A++;
+        A += 1;
 
-    scanf("%c %d",&a,&atem);
+    scanf("%c %d",&c,&ctem);
     if(c = 'Y' && ctem >=37)
-        A++;
+        A += 1;
 
     
     if(A>=2)
