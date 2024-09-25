@@ -3,10 +3,10 @@
 int main() {
     int n;
     scanf("%d",&n);
-    for(int i=0; i<5; i++)
+    for(int i=1; i<=5; i++)
     {
-        printf("%d ",n);
-        n *= n;
+        printf("%d ",n*i);
+        
     }
     return 0;
 }
