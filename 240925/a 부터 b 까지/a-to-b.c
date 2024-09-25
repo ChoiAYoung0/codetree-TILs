@@ -9,12 +9,14 @@ int main() {
         if(a%2==1)
         {
             a *= 2;
-            printf("%d ",a);
+            if(a<=b)
+                printf("%d ",a);
         }
         else if(a%2==0)
         {
             a += 3;
-            printf("%d ",a);
+            if(a<=b)
+                printf("%d ",a);
         }
     }
     return 0;
