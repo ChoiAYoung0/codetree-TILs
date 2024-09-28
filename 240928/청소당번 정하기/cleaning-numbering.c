@@ -7,7 +7,7 @@ int main() {
     cntTwo = n/2;
     cntThree = n/3;
     cntTwelve = n/12;
-    printf("%d %d %d",cntTwo-n/6-cntTwelve, cntThree-cntTwelve, cntTwelve);
+    printf("%d %d %d",cntTwo-n/6, cntThree-cntTwelve, cntTwelve);
 
     return 0;
 }
