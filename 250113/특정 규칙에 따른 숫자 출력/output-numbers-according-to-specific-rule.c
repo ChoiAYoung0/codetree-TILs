@@ -13,11 +13,12 @@ int main() {
         }
         for(int j=n-i; j>0 ; j--)
         {
+            if(cnt>9)
+                cnt =1;
             printf("%d ",cnt);
             cnt++;
         }
-        if(cnt>9)
-            cnt =1;
+        
         printf("\n");
     }
     return 0;
