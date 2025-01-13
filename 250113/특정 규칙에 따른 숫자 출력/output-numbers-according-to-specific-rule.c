@@ -6,17 +6,18 @@ int main() {
     scanf("%d",&n);
     for(int i=0 ; i<n ; i++)
     {
+        
         for(int j=0 ; j<i ; j++)
         {
             printf("  ");
         }
-        if(cnt>9)
-            cnt =1;
         for(int j=n-i; j>0 ; j--)
         {
             printf("%d ",cnt);
             cnt++;
         }
+        if(cnt>9)
+            cnt =1;
         printf("\n");
     }
     return 0;
