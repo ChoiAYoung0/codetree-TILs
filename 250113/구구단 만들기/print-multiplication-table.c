@@ -8,7 +8,7 @@ int main() {
         for(int i=b ; i>= a ; i-=2)
         {
             printf("%d * %d = %d",i,j,i*j);
-            if(i>2)
+            if(i-a>=2)
                 printf(" / ");
         }
         printf("\n");
