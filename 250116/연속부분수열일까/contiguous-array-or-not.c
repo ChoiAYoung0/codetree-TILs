@@ -3,6 +3,7 @@
 int main() {
     int n1[100], n2[100];
     int n,m;
+    int cnt=0;
     scanf("%d%d",&n,&m);
     for(int i=0 ; i<n ; i++)
     {
@@ -14,9 +15,9 @@ int main() {
     }
     for(int i=0 ; i<n ; i++)
     {
+        
         if(n1[i]==n2[0])
         {
-            int cnt=0;
             for(int j=0 ; j<m ; j++)
             {
                 if(n2[j] != n1[i+j])
@@ -35,7 +36,10 @@ int main() {
                 break;
             }
         }
-
+    }
+    if(cnt==0)
+    {
+        printf("No");
     }
     return 0;
 }
