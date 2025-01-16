@@ -32,8 +32,8 @@ int main() {
             }
             else
             {
-                printf("No");
-                break;
+                cnt = 0;
+                continue;
             }
         }
     }
