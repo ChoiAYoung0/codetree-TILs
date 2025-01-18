@@ -14,7 +14,7 @@ int main() {
         if(s2<=s3)
             printf("%d",s1-s2);
         else   
-            printf("%d",s1=s3);
+            printf("%d",s1-s3);
     }
     if(s2>s1 && s2>=s3)
     {
