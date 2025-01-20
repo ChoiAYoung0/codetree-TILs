@@ -16,7 +16,7 @@ int main() {
             j++;
         }
     }
-    arr[j] = '\0';
+    arr1[j] = '\0';
     cnt = strlen(arr1);
     for(int i=cnt-1 ; i >=0 ; i--)
     {
