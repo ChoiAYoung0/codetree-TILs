@@ -3,7 +3,7 @@
 
 int main() {
     char arr[101];
-    char arr1[51];
+    char arr1[101];
     int j=0;
     int cnt,cnt2;
     scanf("%s",arr);
