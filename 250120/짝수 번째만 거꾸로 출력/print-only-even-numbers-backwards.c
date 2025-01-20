@@ -5,9 +5,10 @@ int main() {
     char arr[101];
     char arr1[51];
     int j=0;
-    int cnt;
+    int cnt,cnt2;
     scanf("%s",arr);
-    for(int i=0 ; arr[i] != '\0' ; i++)
+    cnt2 = strlen(arr);
+    for(int i=0 ; i<cnt2 ; i++)
     {
         if(i%2!=0)
         {
