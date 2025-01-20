@@ -2,19 +2,30 @@
 
 int main() {
     int n;
-    int max;
+    int arr[1000];
+    int mul[1000] = {0,};
+    int max=-1;
+
     scanf("%d",&n);
-    scanf("%d",&max);
-    for(int i=0 ; i<n-1 ; i++)
+    for(int i=0 ; i<n ; i++)
     {
-        int j;
-        scanf("%d",&j);
-        if(max==j)
-            max = -1;
-        else if(max<j)
-            max = j;
-        
+        scanf("%d",&arr[i]);
     }
+
+
+    for(int i=0 ; i<n ; i++)
+    {
+        mul[arr[i]]++;
+    }
+
+
+    for(int i=0 ; i<n ; i++)
+    {
+        if(mul[arr[i]]<2 && arr[i]>max)
+            max = arr[i];
+    }
+
     printf("%d",max);
+
     return 0;
 }
