@@ -10,7 +10,7 @@ int main() {
     len = strlen(A);
     lenB = strlen(B);
 
-    for(int i=0 ; i<len ; i++)
+    for(int i=0 ; i<lenB ; i++)
     {
         if(B[i]=='L')
         {
