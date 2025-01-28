@@ -2,7 +2,7 @@
 
 int main() {
     int n;
-    int arr[15][15];
+    int arr[16][16];
     
     scanf("%d",&n);
 
