@@ -8,10 +8,22 @@ int main() {
     scanf("%s",arr);
     scanf("%d",&n);
 
-    for(int i=strlen(arr)-1 ; i>=strlen(arr)-n ; i--)
+    if(strlen(arr)<n)
     {
-        printf("%c",arr[i]);
+        for(int i=strlen(arr)-1 ; i>=0 ; i--)
+        {
+            printf("%c",arr[i]);
+        }
     }
+    else
+    {
+        for(int i=strlen(arr)-1 ; i>=strlen(arr)-n ; i--)
+        {
+            printf("%c",arr[i]);
+        }
+    }
+
+    
 
 
     return 0;
