@@ -4,20 +4,23 @@
 int main() {
     char arr[101];
     int n;
+    int len;
 
     scanf("%s",arr);
     scanf("%d",&n);
 
-    if(strlen(arr)<n)
+    len = strlen(arr);
+
+    if(len<n)
     {
-        for(int i=strlen(arr)-1 ; i>=0 ; i--)
+        for(int i=len-1 ; i>=0 ; i--)
         {
             printf("%c",arr[i]);
         }
     }
     else
     {
-        for(int i=strlen(arr)-1 ; i>=strlen(arr)-n ; i--)
+        for(int i=len-1 ; i>=len-n ; i--)
         {
             printf("%c",arr[i]);
         }
